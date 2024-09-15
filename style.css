@@ -1,0 +1,106 @@
+body{
+    width: 80%;
+    margin: auto;
+    
+}
+form{
+    width: 70%;
+    margin: auto;
+    background-color: aquamarine;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+fieldset{
+    
+    margin: 10px;
+    width: 80%;
+}
+.pinfo,.eduinfo,.exp,.skillinfo{
+display: flex;
+flex-direction: column;
+width: 80%;
+margin-top: 30px;
+margin: auto;
+
+}
+ input{
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+
+.CurriculumVitae{
+    display: block;
+    
+    color: rgba(37, 37, 136, 0.973);
+}
+.cv::first-letter{
+
+    font-size: 200%;
+    
+}
+.cv{
+    display: inline-block;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-between;
+    
+    
+}
+.myname{
+    color: rgba(37, 37, 136, 0.973);
+    font-size: 1.9rem;
+}
+
+.alldetail{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    
+}
+.alldetail p{
+    margin-right: 30px;
+}
+.objective h1{
+    background-color: rgb(107, 107, 248);
+}
+.objective p{
+    font-size: 22px;
+    text-align: justify;
+}
+.education h1{
+    background-color: rgb(107, 107, 248);
+}
+.education h2{
+    color: rgba(37, 37, 136, 0.973); ;
+}
+.education p{
+    text-align: justify;
+    font-size: 22px;
+}
+
+.Skills h1{
+    background-color: rgb(107, 107, 248);
+
+}
+.Skills ul{
+    font-size: 22px;
+}
+.experience h1{
+    background-color: rgb(107, 107, 248);
+}
+.experience ul{
+    font-size: 22px;
+}
+footer{
+    height: 20vh;
+}

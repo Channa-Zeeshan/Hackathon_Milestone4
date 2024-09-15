@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+    <form>
+        <h1>
+            Dynamic Resume Builder
+        </h1>
+        <fieldset id="personalInfo">
+            <legend>Personal Information</legend>
+            <div class="pinfo">
+           
+            <label for="userName"> Username:</label> <input type="text" placeholder="Username" id="userName" required/>
+            <label for="name">Name:</label> <input type="text" placeholder="Name" id="name" required/>
+            <label for="email">Email</label> <input type="text" placeholder="Enter Your Name" id="email" required/>
+            <label for="contact">Contact No:</label> <input type="text" placeholder="Contact No" id="contact" required/>
+            <label for="address">Address</label> <textarea  type="text" placeholder="Enter Your Address" rows="3" id="address" required > </textarea>
+                </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <div class="eduinfo">
+            <label for="bachelor">Bachelors Degree</label> <input type="text" placeholder="Bachelor Degree" id="bachelor" required/>
+            <label for="enter">Intermediate</label> <input type="text" placeholder="Intermediate Degree Information" id="enter" required/>
+            <label for="matric">Matric</label> <input type="text" placeholder="Matric Information" id="matric" required/>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Experience 
+            </legend>
+            <div class="exp">
+            <textarea name="experience" id="experience" rows="4" placeholder="Add Your Experience" required></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend> Skills </legend>
+            <div class="skillinfo">
+
+            <textarea name="skills" id="skills" rows="4" placeholder="Add Skills" required></textarea>
+        </div>
+        </fieldset>
+
+        <button type="submit" id="submit" >Generate CV</button>
+    </form>
+    
+    <hr>
+    <div id="generatedCv" contenteditable="true">
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
